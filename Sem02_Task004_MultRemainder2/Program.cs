@@ -1,14 +1,15 @@
-﻿// ??????????????
+﻿// Two numbers are entered through the console. Check is the first is a multiple of the second.
 
-Console.WriteLine("Enter the number: ");
+Console.WriteLine("Enter the first number: ");
 int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter the second number: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-
-if ((a % 7 == 0) & (a % 23 == 0))
+if (a % b == 0)
 {
-    Console.WriteLine($"{a} divides both to 7 and 23");
+    Console.WriteLine($"{a} is a multiple of {b}");
 }
 else
 {
-    Console.WriteLine($"{a} does NOT divide both to 7 and 23");
+    Console.WriteLine($"{a} is NOT a multiple of {b}");
 }

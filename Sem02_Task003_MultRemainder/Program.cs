@@ -1,15 +1,13 @@
-﻿// ??????????????
+﻿// A number is entered through the console. Check if the number divides without remainder by 7 and by 23.
 
-// Console.WriteLine("Enter the first number: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Enter the second number: ");
-// int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter the number: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-// if (( a = b * b) || ( b = a * a))
-// {
-//     Console.WriteLine("One number is square of the other");
-// }
-// else
-// {
-//     Console.WriteLine("None of two is square of the other"");
-// }
+if ((a % 7 == 0) & (a % 23 == 0))
+{
+    Console.WriteLine($"{a} divides both by 7 and 23");
+}
+else
+{
+    Console.WriteLine($"{a} does NOT divide both by 7 and 23");
+}

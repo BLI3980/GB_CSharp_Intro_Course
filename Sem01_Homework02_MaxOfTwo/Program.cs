@@ -2,7 +2,7 @@
 
 Console.WriteLine("Enter the first number: ");
 double a = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Enter the second number: ");
+Console.WriteLine("Enter the second number: "); // Can also write only one suggestion to enter two numbers
 double b = Convert.ToDouble(Console.ReadLine());
 
 if (a > b)
