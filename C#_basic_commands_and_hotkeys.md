@@ -21,6 +21,8 @@
 |||
 |||
 
+# From Sergey Kamyaneckiy
+# =============================
 https://t.me/c/1745662062/46002
 
 Разница у типов
@@ -39,3 +41,78 @@ Object - это базовый тип для всего в с#, т е перем
 Чтобы объяснить dynamic нужно понимать работу с рефлексией, в нем может храниться всё основанное на базовых и пользовательских типах
 
 На старте изучения object и dynamic я бы отложил.
+# =============================
+
+# From w3schools.com
+# =============================
+## Switch
+
+    int day = 3;
+    switch = day;
+    {
+        case 1:
+            Console.WriteLine("Today is Saturday");
+            break;
+        case 2:
+            Console.WriteLine("Today is Sunday");
+            break;
+        default:
+            Console.WriteLine("Looking forward to the Weekend");
+            break; 
+    }
+
+## Loops
+> Do, For, While
+
+================
+
+    int i = 1;
+    do
+    {
+        Console.WriteLine (i);
+        i++;
+    }
+    while i < 6;
+================
+
+    for (int i = 0, i < 5, i++)
+    {
+        Console.WriteLine("Yes");
+    }
+================
+
+    for (int i = 0, i < 10, i++)
+    {
+        if (i == 5)
+        {
+            break; //stop outputing i if i becomes equal to 5.
+        }
+        Console.WriteLine(i);
+    }
+================
+
+    for (int i = 0, i < 10, i++)
+    {
+        if (i == 4)
+        {
+            continue; //if i becomes equal to 4, jump to next value.
+        }
+        Console.WriteLine(i);
+    }
+
+## Arrays
+================
+
+    string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    foreach (string i in cars) 
+    {
+    Console.WriteLine(i); //outputs each element of the array
+    }
+================
+
+    string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    Array.Sort(cars);
+    foreach (string i in cars)
+    {
+    Console.WriteLine(i); //sorts the elements of the array, then outputs.
+    } 

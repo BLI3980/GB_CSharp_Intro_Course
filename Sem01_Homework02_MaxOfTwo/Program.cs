@@ -13,3 +13,4 @@ else
 {
     Console.WriteLine($"{b} is larger than {a}");
 }
+// Can also add a check if both numbers are equal

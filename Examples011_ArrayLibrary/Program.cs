@@ -1,6 +1,5 @@
-﻿// Create new array filled with zeros. Create a method to fill array. Create a method to print filled array.
-//            0   1   2   3   4   5   6   7   8   9
-int[] array= new int [10];
+﻿// 1. Create new array filled with zeros; 2. Create a method to fill array; 3. Create a method to print filled array; 4. Create method to find a number
+int[] array = new int [10];
 
 void FillArray(int[] arrayFill)
 {
@@ -19,7 +18,7 @@ void PrintArray(int[] arrayPr)
     int indx = 0;
     while (indx < len)
     {
-        Console.Write($"{arrayPr[indx]}  ");
+        Console.Write(arrayPr[indx]+"  ");
         indx++;
     }
     if (indx == len) 

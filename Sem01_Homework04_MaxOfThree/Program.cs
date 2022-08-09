@@ -17,3 +17,4 @@ if (c > max)
 }
     
 Console.WriteLine($"{max} is the largest of given three numbers");
+// Can also add checks if any of three are equal
