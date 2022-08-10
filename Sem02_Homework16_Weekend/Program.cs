@@ -1,6 +1,6 @@
-﻿//A number representing a day of week is entered through the console. The output shows if the number corresponds to weekend or not.
+﻿//Task: A number representing a day of week is entered through the console. The output shows if the number corresponds to weekend or not.
 
-Console.WriteLine("Enter a number from 1 to 7 representing a day of week (where 1 is Monday): ");
+Console.WriteLine("Enter a number from 1 to 7 representing a day of week, where 1 is Monday: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 if (a > 0 && a < 8)

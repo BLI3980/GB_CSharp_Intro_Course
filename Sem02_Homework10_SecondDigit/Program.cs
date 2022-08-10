@@ -1,4 +1,4 @@
-﻿// A three digit integer number is entered through the console. The output is the second digit of the number.
+﻿// Task: A three digit integer number is entered through the console. The output is the second digit of the number.
 
 Console.WriteLine("Enter a three digit number from 100 to 999: ");
 int a = Convert.ToInt32(Console.ReadLine());
