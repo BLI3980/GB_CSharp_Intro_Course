@@ -17,7 +17,7 @@
 //     return a b;
 // }
 
-
+// check
 
 Console.WriteLine("Enter a number:");
 int num = Convert.ToInt32(Console.ReadLine());
