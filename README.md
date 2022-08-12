@@ -1,2 +1,2 @@
-# A list of examples and tasks for the first lecture and the first seminar of the course:
+# A list of examples and tasks for the lectures and seminars of the course:
 # "GeekBrains. Introduction to C# programming language".
