@@ -1,4 +1,4 @@
-﻿//Three numbers are entered. The output gives the largest of three.
+﻿//Task: Three numbers are entered. The output gives the largest of three.
 Console.WriteLine("Enter the first number: ");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Enter the second number: ");

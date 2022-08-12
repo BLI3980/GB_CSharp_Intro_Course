@@ -1,4 +1,4 @@
-﻿// A random two digit number in the range from 10 to 99 inclusive is taken. The first and the second digits of the number are compared to see which one is larger.
+﻿//Task: A random two digit number in the range from 10 to 99 inclusive is taken. The first and the second digits of the number are compared to see which one is larger.
 
 int a = new Random().Next(10, 100);
 

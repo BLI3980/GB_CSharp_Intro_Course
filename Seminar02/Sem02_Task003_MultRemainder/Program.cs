@@ -1,4 +1,4 @@
-﻿// A number is entered through the console. Check if the number divides without remainder by 7 and by 23.
+﻿//Task: A number is entered through the console. Check if the number divides without remainder by 7 and by 23.
 
 Console.WriteLine("Enter the number: ");
 int a = Convert.ToInt32(Console.ReadLine());

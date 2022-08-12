@@ -1,4 +1,4 @@
-﻿//An integer number n is entered. The output is the range of numbers -n, -n+1,...,n.
+﻿//Task: An integer number n is entered. The output is the range of numbers -n, -n+1,...,n.
 /*Console.Write("Введите число: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
 

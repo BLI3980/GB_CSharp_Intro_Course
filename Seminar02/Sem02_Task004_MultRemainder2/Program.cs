@@ -1,4 +1,4 @@
-﻿// Two numbers are entered through the console. Check is the first is a multiple of the second.
+﻿//Task: Two numbers are entered through the console. Check is the first is a multiple of the second.
 
 Console.WriteLine("Enter the first number: ");
 int a = Convert.ToInt32(Console.ReadLine());

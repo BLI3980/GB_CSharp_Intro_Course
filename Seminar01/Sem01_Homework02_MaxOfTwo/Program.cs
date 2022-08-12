@@ -1,4 +1,4 @@
-﻿//Two numbers are entered. The output compares which number is larger
+﻿//Task: Two numbers are entered. The output compares which number is larger
 
 Console.WriteLine("Enter the first number: ");
 double a = Convert.ToDouble(Console.ReadLine());

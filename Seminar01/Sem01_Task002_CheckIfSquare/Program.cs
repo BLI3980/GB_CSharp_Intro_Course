@@ -1,4 +1,4 @@
-﻿//Two numbers are entered from console. A comparison is made to see if the first number is the square of the second. If yes - output "Yes", if not - output "No".
+﻿//Task: Two numbers are entered from console. A comparison is made to see if the first number is the square of the second. If yes - output "Yes", if not - output "No".
 
 //First version of the code
 Console.WriteLine("Enter first number: ");

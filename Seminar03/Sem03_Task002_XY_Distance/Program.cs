@@ -1,4 +1,4 @@
-﻿//X and Y coordinates are entered through the console. The output is the distance between X and Y in XY coordinate system.
+﻿//Task: X and Y coordinates are entered through the console. The output is the distance between X and Y in XY coordinate system.
 
 Console.WriteLine("Enter A coordinates: ");
 int ax = int.Parse(Console.ReadLine());

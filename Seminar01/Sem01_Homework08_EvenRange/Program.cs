@@ -1,4 +1,4 @@
-﻿//An integer number is entered. The output shows the range of numbers from 1 till the number entered.
+﻿//Task: An integer number is entered. The output shows the range of numbers from 1 till the number entered.
 
 Console.Write("Enter an integer number: ");
 int N = Convert.ToInt32(Console.ReadLine());

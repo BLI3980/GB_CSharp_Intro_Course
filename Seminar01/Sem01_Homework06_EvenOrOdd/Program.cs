@@ -1,4 +1,4 @@
-﻿//Checking if given number is even or odd
+﻿//Task: Checking if given number is even or odd
 
 Console.WriteLine("Enter a number: ");
 double a = Convert.ToDouble(Console.ReadLine());

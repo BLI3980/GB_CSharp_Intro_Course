@@ -1,4 +1,4 @@
-﻿//A three digit number is entered. The output is the last digit of the number
+﻿//Task: A three digit number is entered. The output is the last digit of the number
 
 //The first version of the code.
 /*Console.Write("Введите трехзначное число: ");

@@ -1,4 +1,4 @@
-﻿//Enter a number between 1 and 7 representing weekdays. The output is the name of the weekday.
+﻿//Task: Enter a number between 1 and 7 representing weekdays. The output is the name of the weekday.
 
 //First Version of the code
 /*Console.Write("Введите число дня недели: ");
