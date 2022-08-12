@@ -11,8 +11,16 @@
 // Console.WriteLine(i);
 // } 
 
-public class CustomMath(arg1, arg2) 
-{
-    public static int multiply(int a, int b); 
-    return a b;
-}
+// public class CustomMath(arg1, arg2) 
+// {
+//     public static int multiply(int a, int b); 
+//     return a b;
+// }
+
+Console.WriteLine("Enter a number:");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int digitIndex = 2;
+int digit = num.ToString()[digitIndex] - '0';
+
+Console.WriteLine(digit);
