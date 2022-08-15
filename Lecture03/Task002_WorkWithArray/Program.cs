@@ -14,15 +14,13 @@ void PrintArray(int[] array)
 
 void SelectSort(int[] array)
 {
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length - 1; i++) //Loop swaps found min element with current position
     {
         int minPosition = i;
-        for (int j = i + 1; j < array.Length; j++)
+        for (int j = i + 1; j < array.Length; j++) //Loop searches for min element from i+1 till the last element
         {
-            if (array[j] < array[minPosition])
-                minPosition = j;
+            if (array[j] < array[minPosition]) minPosition = j;
         }
-
         int tempPosition = array[i];
         array[i] = array[minPosition];
         array[minPosition] = tempPosition;
@@ -30,3 +28,9 @@ void SelectSort(int[] array)
 }
 
 PrintArray(arr);
+SelectSort(arr);
+
+PrintArray(arr);
+
+
+
