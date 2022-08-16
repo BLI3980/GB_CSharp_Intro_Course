@@ -13,6 +13,6 @@ int bz = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine(ay-by);
 // Console.WriteLine(az-bz);
 
-double AB = Math.Sqrt(Math.Pow(ax-bx,2) + Math.Pow(ay-by,2) + Math.Pow(az-bz,2));
+double AB = Math.Sqrt(Math.Pow(ax-bx, 2) + Math.Pow(ay-by, 2) + Math.Pow(az-bz, 2));
 
 Console.WriteLine(AB);
