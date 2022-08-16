@@ -1,4 +1,5 @@
-﻿//Task: A number is entered through the console. The output
+﻿//Task: A number is entered through the console. The output is the number of digits in the entered number.
+
 Console.WriteLine("Enter a positive integer number more than zero");
 int a = Convert.ToInt32(Console.ReadLine());
 
