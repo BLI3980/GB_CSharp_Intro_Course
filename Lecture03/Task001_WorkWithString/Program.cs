@@ -10,7 +10,7 @@ string text = "— Я думаю, — сказал князь, улыбаясь,
 
 // string s = "qwerty"
 //             012345
-// s[3] // r
+// s[3] == r
 
 string Replace(string text, char oldVal, char newVal)
 {

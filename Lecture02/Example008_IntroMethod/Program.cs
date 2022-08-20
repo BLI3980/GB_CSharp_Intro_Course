@@ -21,18 +21,20 @@ int c3 = 33;
 
 //1. Without usage of any method
 //================================
-/*int max = a1;
+/*
+    int max = a1;
 
-if (b1 > max) max = b1;
-if (c1 > max) max = c1;
+    if (b1 > max) max = b1;
+    if (c1 > max) max = c1;
 
-if (a2 > max) max = a2;
-if (b2 > max) max = b2;
-if (c2 > max) max = c2;
+    if (a2 > max) max = a2;
+    if (b2 > max) max = b2;
+    if (c2 > max) max = c2;
 
-if (a3 > max) max = a3;
-if (b3 > max) max = b3;
-if (c3 > max) max = c3;*/
+    if (a3 > max) max = a3;
+    if (b3 > max) max = b3;
+    if (c3 > max) max = c3;
+*/
 //================================
 //2. Using a method to calculate max of three
 //================================
@@ -68,7 +70,7 @@ if (c3 > max) max = c3;*/
 // if (c3 > max) max = c3;
 //1. ===========================
 //2. ===========================
-// int Max(int A, int B, int C)
+// int Max(int A, int B, int C) //Method to calculate max of three
 // {
 //     int result = A;
 //     if (B > result) result = B;
@@ -80,7 +82,7 @@ if (c3 > max) max = c3;*/
 // int max2 = Max(a2, b2, c2);
 // int max3 = Max(a3, b3, c3);
 
-// int max = Max(max1, max2, max3);
+// int max = Max(max1, max2, max3); //Method to calculate max of three
 //2. ===========================
 //3. ===========================
 int Max(int A, int B, int C)
