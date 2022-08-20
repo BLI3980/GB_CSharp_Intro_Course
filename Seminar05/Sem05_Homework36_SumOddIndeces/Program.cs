@@ -20,12 +20,16 @@ void FillPrintArray (int [] arr) // Randomly fill out the array and print it to 
 int SumEven (int [] arr) // Sum up all numbers under odd indices ([1], [3], [5], etc)
 {
     int sum = 0;
-    for (int i = 0; i < arr.Length; i++)
+    // for (int i = 0; i < arr.Length; i++) // Summing only odd numbers through the loop
+    // {
+    //     if (i % 2 != 0) 
+    //     {
+    //         sum = sum + arr[i];
+    //     }
+    // }
+    for (int i = 1; i < arr.Length; i+=2) // The other way of summing, by increasing a step in the loop
     {
-        if (i % 2 != 0)
-        {
-            sum = sum + arr[i];
-        }
+         sum = sum + arr[i];
     }
     return sum;
 }

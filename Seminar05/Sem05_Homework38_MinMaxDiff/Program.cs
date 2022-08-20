@@ -7,13 +7,13 @@ double[] array = new double [n];
 
 void FillPrintDouble(double[] arr) // Randomly fill out the array with doubles and print it to the terminal
 {
-    Random rand = new Random();
+    //Random rand = new Random();
     double min = -100;
     double max = 100;
     double range = max - min;
     for (int i = 0; i < arr.Length; i++)
     {
-        double sample = rand.NextDouble();
+        double sample = new Random().NextDouble();
         double scaled = (sample * range) + min;
         arr[i] = Math.Round(scaled,2);
         Console.Write(arr[i] + "   ");
