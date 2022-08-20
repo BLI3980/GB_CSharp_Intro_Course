@@ -1,8 +1,8 @@
-﻿//Task: Create one-dimension array of double randomly filled numbers. Find out the difference between max and min elements of the array.
+﻿//Task: Create one-dimension array of double-type randomly filled numbers. Find out the difference between max and min elements of the array.
 //Example: 
 //[3 7 22 2 78] -> 78 - 2 = 76
 
-int n = new Random().Next(2,11); // Randomly select how many elements will be in the array
+int n = new Random().Next(2,11); // Randomly select how many elements will be in the array between 2 and 10
 double[] array = new double [n];
 
 void FillPrintDouble(double[] arr) // Randomly fill out the array with doubles and print it to the terminal

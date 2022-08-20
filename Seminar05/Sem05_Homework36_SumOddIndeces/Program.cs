@@ -3,7 +3,7 @@
 //[3, 7, 23, 12] -> 19
 //[-4, -6, 89, 6] -> 0
 
-int n = new Random().Next(2,11); // Randomly select how many elements will be in the array
+int n = new Random().Next(2,11); // Randomly select how many elements will be in the array between 2 and 10
 int[] array = new int [n];
 
 void FillPrintArray (int [] arr) // Randomly fill out the array and print it to the terminal
