@@ -3,14 +3,14 @@ void Method1()
 {
     Console.WriteLine("Example");
 }
-//Method(); //To call such method
+Method1(); //To call such method
 
 //====Type 2: Some input, no return =====
 void Method2(string msg)
 {
     Console.WriteLine(msg);
 }
-//Method2("the text of a message"); 
+Method2("the text of a message");
 
 void Method21(string msg, int count)
 {
@@ -21,7 +21,7 @@ void Method21(string msg, int count)
         i++;
     }
 }
-//Method21("Text", 4); 
+Method21("Text", 4);
 //Method21(msg: "Text", count: 4); //other way to call such method
 //Method21(count: 4, msg: "Text"); //no need to keep the order of arguments
 

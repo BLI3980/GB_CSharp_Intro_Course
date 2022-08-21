@@ -14,4 +14,3 @@
 
 // Console.WriteLine(AB);
 
-Console.WriteLine(double.Math.Pow(27,1/3);
