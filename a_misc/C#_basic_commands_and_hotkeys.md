@@ -18,8 +18,8 @@
 | Ctrl+~ | - To switch between panels of VSC |
 | Ctrl+F2 | - To rename a file or folder in VSC |
 |Alt+cursor| - Put cursor in multiple places after the same symbols which you want to replace with another symbol; Backspace and type |
-|||
-|||
+|Alt+arrow key up/down| - Move a row up or down in code|
+|Shift+Alt+arrow ke up/down| - Copy line up or down|
 
 # From Sergey Kamyaneckiy
 # =============================
