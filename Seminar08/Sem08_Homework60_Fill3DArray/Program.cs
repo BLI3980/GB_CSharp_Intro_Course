@@ -1,4 +1,4 @@
-﻿// 
+﻿// Task: Create 3D array. Fill it up with two-digit non-repeating numbers.
 
 int[,,] array = new int[4, 11, 4]; // The size of array is chosen 4 x 11 x 4 in order to 
                                    // accommodate as much of two-digit positive and negative integers as possible
@@ -21,14 +21,14 @@ void Fill3DArrNonRepeat(int[,,] arr) // Fill 3D Array with non-repeating two-dig
                     {
                         for (j1 = 0; j1 < arr.GetLength(1); j1++)
                         {
-                            if (arr[i1, j1, k1] == check) // If element repeat, get another random element
+                            if (arr[i1, j1, k1] == check) // If element repeats, get another random element
                             {
                                 goto Repeat;
                             }
                             if ((i1 == i) && (j1 == j) && (k1 == k)) // If all existing elements are checked, stop checking and assign save new element
                             {
                                 arr[i, j, k] = check;
-                                break;
+                                // break;
                             }
                         }
                     }
