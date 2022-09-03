@@ -96,7 +96,7 @@ int[,] ArrayC(int[,] arrA, int[,] arrB) // Multiply Array A to Array B in the sp
 
 
 
-Console.WriteLine($"Array \"A\" with {rowsA} rows and {colsA} columns: ");
+Console.WriteLine($"\nArray \"A\" with {rowsA} rows and {colsA} columns: ");
 FillPrint2DArray(arrA, 1, 6);
 Console.WriteLine($"Array \"B\" with {rowsB} rows and {colsB} columns: ");
 FillPrint2DArray(arrB, 1, 6);

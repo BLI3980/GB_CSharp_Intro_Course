@@ -32,7 +32,7 @@ void FillPrint2DArray(int[,] arr) // Randomly fill out 2D array with integers an
 int FindSmallestRow(int[,] arr)
 {
     int sum = 0;
-    for (int i = 0, j = 0; j < arr.GetLength(1); j++)
+    for (int i = 0, j = 0; j < arr.GetLength(1); j++) //Finding the sum of the first row
     {
         sum = sum + arr[i, j];
     }
@@ -40,7 +40,7 @@ int FindSmallestRow(int[,] arr)
     int rowOfMinSum = 0;
     Console.WriteLine($"row {0}, sum {sum}, minSum {minSum}, rowOfMinSum {rowOfMinSum}");
 
-    for (int i = 1; i < arr.GetLength(0); i++)
+    for (int i = 1; i < arr.GetLength(0); i++) //Finding sums of the rest of the rows and comparing to minimum
     {
         sum = 0;
         for (int j = 0; j < arr.GetLength(1); j++)
