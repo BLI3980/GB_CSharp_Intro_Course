@@ -49,7 +49,7 @@ void Print3DArray(int[,,] arr)
             Console.Write("|");
             for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write("{0,14}", $"{arr[i, j, k]} ({i}:{j}:{k})|");
+                Console.Write("{0,13}", $"{arr[i, j, k]} ({i}:{j}:{k})|");
             }
             Console.WriteLine();
             Console.WriteLine();
