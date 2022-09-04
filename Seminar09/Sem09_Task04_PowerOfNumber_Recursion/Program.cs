@@ -1,9 +1,9 @@
 ﻿//Numbers A and B are entered through the console. Find A to the power of B
 
-Console.WriteLine("Enter the number: ");
+Console.WriteLine("Enter the first number: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Enter the power: ");
+Console.WriteLine("Enter the second power: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int Power(int i, int j)
