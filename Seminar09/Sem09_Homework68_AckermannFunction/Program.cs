@@ -17,6 +17,13 @@ if ((m > 4) || (m >= 4 && n > 0) || (m >= 3 && n > 10))
     Console.WriteLine();
     goto Again;
 }
+else if (m < 0 || n < 0)
+{
+    Console.WriteLine();
+    Console.WriteLine("Sorry, this function won't work for negative numbers.");
+    Console.WriteLine("Please try again, but without negative numbers.");
+    goto Again;
+}
 else
 {
     int result = 0;
